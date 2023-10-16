@@ -1,0 +1,33 @@
+.visited-country-container {
+  list-style-type: none;
+  margin-top: 5px;
+  margin-right: 5px;
+  background-color: #334155;
+  border-radius: 6px;
+}
+.name-button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.visited-country-image {
+  height: 120px;
+  width: 180px;
+}
+
+.remove-button {
+  border: 1px solid #cbdfe1;
+  background-color: transparent;
+  color: #cbdfe1;
+  padding: 3px 5px;
+  border-radius: 5px;
+  margin-right: 8px;
+  cursor: pointer;
+  outline: none;
+}
+
+.country-name-heading {
+  font-size: 12px;
+  margin-left: 8px;
+}
